@@ -35,7 +35,7 @@ management:
 eureka:
   client:
     service-url:
-      defaultZone: https://tecylab-eureka-server-cabbbcdpb4hdargu.canadacentral-01.azurewebsites.net/eureka/
+      defaultZone: https://josh-eureka-server-bgh7hrdebgdtefcf.canadacentral-01.azurewebsites.net/eureka/
     fetch-registry: true
     register-with-eureka: true
 
