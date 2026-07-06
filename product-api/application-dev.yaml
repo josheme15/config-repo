@@ -14,17 +14,6 @@ spring:
           property-sources[0]:
             endpoint: https://josh-keyvault.vault.azure.net/
 
-      cosmos:
-        endpoint: https://tecylab-cosmosdb.documents.azure.com:443/
-        key: ${azure-cosmos-key}
-        database: logs
-
-      storage:
-        blob:
-          endpoint: https://tecylabstorage.blob.core.windows.net/
-          account-name: tecylabstorage
-          account-key: ${azure-storage-account-key}
-
     redis:
       host: olive-soda-feathered-31303.db.redis.io
       port: 17327
