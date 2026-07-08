@@ -18,7 +18,12 @@ spring:
         endpoint: https://josh-cosmosdb.documents.azure.com:443/
         key: ${azure-cosmos-key}
         database: logs
-        create-database-if-not-exists: true
+        
+      storage:
+        blob:
+          endpoint: https://joshemestorage.blob.core.windows.net/
+          account-name: joshemestorage
+          account-key: ${azure-storage-account-key}
 
     redis:
       host: olive-soda-feathered-31303.db.redis.io
